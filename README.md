@@ -84,7 +84,7 @@ Como usamos ele agora? Com o Controller.
 
 O Controller é literalmente o controlador da aplicação, que recebe as requisições do usuário e as manipula, retornando uma resposta.
 
-No nosso exemplo, o Controller seria responsável por receber as requisições do usuário, como por exemplo, salvar um novo cliente, e manipular os dados, como por exemplo, salvar o cliente no banco de dados.
+No nosso exemplo, o Controller seria responsável por receber as requisições do usuário, como por exemplo: salvar um novo cliente, e manipular os dados, como por exemplo, salvar o cliente no banco de dados.
 
 Segue o exemplo de um Controller de cliente em Laravel:
 
@@ -130,7 +130,7 @@ class ClienteController extends Controller
 
 ```
 
-O Controller conhece o Model, e pode manipular os dados através dele, mas também conhece a View, e pode retornar uma resposta para o usuário através dela.
+O Controller conhece o Model e pode manipular os dados através dele, mas também conhece a View e pode retornar uma resposta para o usuário através dela.
 
 Dessa forma, o Controller é o intermediário entre o Model e a View.
 
@@ -142,7 +142,7 @@ A View é a parte da aplicação que representa a camada de apresentação, ou s
 
 É literalmente a interface gráfica da aplicação, que pode ser representada por um arquivo HTML, por exemplo.
 
-Seguindo o exemplo de um sistema de cadastro de clientes, a View seria a representação da interface gráfica do sistema, como formulários, botões, tabelas, etc.
+Seguindo o exemplo de um sistema de cadastro de clientes, a View seria a representação da interface gráfica do sistema como formulários, botões, tabelas, etc.
 
 Segue o exemplo de uma View de cliente em Laravel utilizando o Blade:
 
