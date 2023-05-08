@@ -15,7 +15,7 @@ O Model é a parte da aplicação que representa a camada de dados, ou seja, a r
 
 É literalmente um modelo da aplicação, que pode ser representado por uma classe, por exemplo.
 
-Seguindo o exemplo de um sistema de cadastro de clientes, o Model seria a representação dos dados do cliente, como nome, e-mail, telefone, etc.
+Seguindo o exemplo de um sistema de cadastro de clientes, o Model seria a representação dos dados do cliente, como nome, e-mail, telefone etc.
 
 Segue o exemplo de um Model de cliente em Laravel:
 
@@ -142,7 +142,7 @@ A View é a parte da aplicação que representa a camada de apresentação, ou s
 
 É literalmente a interface gráfica da aplicação, que pode ser representada por um arquivo HTML, por exemplo.
 
-Seguindo o exemplo de um sistema de cadastro de clientes, a View seria a representação da interface gráfica do sistema como formulários, botões, tabelas, etc.
+Seguindo o exemplo de um sistema de cadastro de clientes, a View seria a representação da interface gráfica do sistema como formulários, botões, tabelas etc.
 
 Segue o exemplo de uma View de cliente em Laravel utilizando o Blade:
 
@@ -219,7 +219,7 @@ Lembre-se que esse código é apenas um exemplo didático, e que você pode impl
 
 Talvez você tenha percebido que a View está utilizando uma sintaxe diferente, com o uso de chaves e arrobas, isso é o Blade, um template engine do Laravel.
 
-O Blade é uma ferramenta que permite a utilização de recursos como herança de templates, diretivas de controle, etc.
+O Blade é uma ferramenta que permite a utilização de recursos como herança de templates, diretivas de controle etc.
 
 Outra coisa que você pode ter percebido é o uso de rotas, como por exemplo, `{{ route('clientes.create') }}`, isso é o uso de rotas nomeadas, que é uma forma de referenciar uma rota através de um nome, ao invés de referenciar através de uma URL.
 
@@ -262,9 +262,9 @@ As funções tem os nomes de 'index', 'create', 'store', 'show', 'edit', 'update
 
 Pronto, agora você já sabe o básico sobre MVC, e já pode começar a implementar em seus projetos.
 
-Lembre-se que esse é apenas um exemplo didático, existem várias verificações que devem ser feitas, como por exemplo, verificar se o usuário está autenticado, verificar se o usuário tem permissão para acessar determinada rota, etc.
+Lembre-se que esse é apenas um exemplo didático, existem várias verificações que devem ser feitas, como por exemplo, verificar se o usuário está autenticado, verificar se o usuário tem permissão para acessar determinada rota etc.
 
-Eu usei o Laravel como exemplo, mas você pode implementar o MVC com a tecnologia que quiser, como por exemplo, PHP puro, Java, C#, etc.
+Eu usei o Laravel como exemplo, mas você pode implementar o MVC com a tecnologia que quiser, como por exemplo, PHP puro, Java, C# etc.
 
 Espero que esse artigo tenha sido útil para você, como foi para mim.
 
